@@ -10,8 +10,8 @@ version = 5
 cloudstream {
     // All of these properties are optional, you can safely remove them
 
-    description = "Lorem ipsum"
-    authors = listOf("Cloudburst")
+    description = "The Crunchyroll provider allows you to watch all the shows that are on Crunchyroll."
+    authors = listOf("Sir Aguacata (AKA KillerDogeEmpire)")
 
     /**
     * Status int as the following:

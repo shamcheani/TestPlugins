@@ -6,15 +6,15 @@ import com.lagradost.cloudstream3.APIHolder
 import android.content.Context
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.lagradost.cloudstream3.animeproviders.KrunchyProvider
 
 @CloudstreamPlugin
 class TestPlugin: Plugin() {
     var activity: AppCompatActivity? = null
 
-    override fun load(context: Context) {
-        activity = context as AppCompatActivity
-        // All providers should be added in this manner
-        registerMainAPI(ExampleProvider(this))
+        override fun load(context: Context) {
+            // All providers should be added in this manner. Please don't edit the providers list directly.
+            registerMainAPI(KrunchyProvider())
 
         openSettings = { ctx ->
             val frag = BlankFragment(this)
