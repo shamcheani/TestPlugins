@@ -1,5 +1,3 @@
-**⚠️ This is currently under development, dont use it yet if you're not comfortable with constantly merging new changes**
-
 # `Cloudstream3 Plugin Repo Template`
 
 Template for a [Cloudstream3](https://github.com/recloudstream) plugin repo
@@ -16,10 +14,6 @@ This template includes 1 example plugin.
 3. Build or deploy your first plugin using:
    - Windows: `.\gradlew.bat ExampleProvider:make` or `.\gradlew.bat ExampleProvider:deployWithAdb`
    - Linux & Mac: `./gradlew ExampleProvider:make` or `./gradlew ExampleProvider:deployWithAdb`
-
-## License
-
-Everything in this repo is released into the public domain. You may use it however you want with no conditions whatsoever
 
 ## Attribution
 
